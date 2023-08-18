@@ -1,0 +1,1 @@
+{"ast":null,"code":"import * as LoginConstant from \"./login.constant\";\nexport class AuthenticateUser {\n  constructor(payload) {\n    this.payload = payload;\n    this.type = LoginConstant.AUTHENTICATE_USER;\n  }\n\n}\nexport class LogoutUser {\n  constructor() {\n    this.type = LoginConstant.LOGOUT_USER;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

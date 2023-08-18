@@ -1,0 +1,1 @@
+{"ast":null,"code":"import * as fromLogin from \"../login/store/login.reducer\";\nexport const appReducer = {\n  auth: fromLogin.loginReducer\n};","map":null,"metadata":{},"sourceType":"module"}
